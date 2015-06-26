@@ -1,0 +1,141 @@
+.style-switch {
+    opacity: 1;
+    position: fixed;
+    z-index: 9999;
+    top: 85px;
+    background: #f5f5f5;
+    border-bottom-right-radius: 4px;
+    -webkit-backface-visibility: hidden;
+}
+
+.style-switch.left {
+    left: -190px;
+}
+
+.style-switch.right {
+    right: -190px;
+}
+
+.style-switch .switched-options {
+    position: relative;
+    width: 190px;
+    text-align: left;
+    padding: 12px 12px 0px 12px;
+}
+
+.style-switch .config-title {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.style-switch ul .active a {
+    color: #1abc9c;
+    font-weight: 400;
+}
+
+.style-switch ul .p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 10px;
+}
+
+.style-switch ul li:hover {
+    cursor: pointer;
+}
+
+.style-switch ul li a {
+    font-size: 14px;
+    color: #808080;
+    letter-spacing: 0.1px;
+}
+
+.style-switch ul li a:hover {
+    color: #808080;
+    text-decoration: none;
+}
+
+.style-switch ul.styles {
+    margin-top: 15px;
+}
+
+.style-switch ul.styles li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.style-switch ul.styles li.no-margin {
+    margin-right: 0px;
+}
+
+.style-switch ul.styles li .color {
+    display: block;
+    width: 35px;
+    height: 30px;
+    border-radius: 1px;
+}
+
+.style-switch ul.styles li .blue {
+    background: #006ca3;
+}
+
+.style-switch ul.styles li .green {
+    background: #00a69a;
+}
+
+.style-switch ul.styles li .green2 {
+    background: #149b60;
+}
+
+.style-switch ul.styles li .orange {
+    background: #da491c;
+}
+
+.style-switch ul.styles li .purple {
+    background: #b93366;
+}
+
+.style-switch ul.styles li .red {
+    background: #db1521;
+}
+
+.style-switch ul.styles li .yellow {
+    background: #e68a00;
+}
+
+.style-switch ul.styles li .pink {
+    background: #c80a48;
+}
+
+.style-switch ul.styles li .purple {
+    background: #a06081;
+}
+
+.style-switch .switch-button {
+    opacity: 1 !important;
+    background: #f5f5f5;
+    padding: 10px;
+    font-size: 24px;
+    padding-bottom: 8px;
+    color: #272727;
+    position: absolute;
+    overflow: hidden;
+    right: -40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.style-switch.right .switch-button {
+    left: -40px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.style-switch .switch-button:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
